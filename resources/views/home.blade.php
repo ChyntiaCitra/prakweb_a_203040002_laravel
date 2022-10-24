@@ -1,11 +1,6 @@
 @extends('layouts.main')
 
 @section('container')
-<article>
-  <h2>{{ $post["title"] }}</h2>
-  <h5>{{ $post["autor"] }}</h5>
-  <p>{{ $post["Body"] }}</p>
-</article>
+<h1>Halaman Home</h1>
 
-<a href="/blog">Back</a>
 @endsection
